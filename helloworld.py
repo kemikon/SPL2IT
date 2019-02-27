@@ -15,5 +15,9 @@ class Ostap:
         self.wight = wight
         self.school = school
 
+    def theMessage(self):
+        print("my age is : " + self.age)
+
+
 o = Ostap(15,170,65, "HTL-Leoben")
-print(o.age)
+o.theMessage()
