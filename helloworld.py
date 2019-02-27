@@ -17,7 +17,7 @@ class Ostap:
 
     def theMessage(self):
         print("my age is : " , self.age)
-    	print("my height is : " , self.height)
+        print("my height is : " , self.height)
         print("my wight is : " ,self.weight)
         print("I attend : " + self.school)
 
