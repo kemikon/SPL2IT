@@ -7,6 +7,9 @@ for e in texte:
     woerter = e.split(" ")
     te.append(len(woerter))
     print(len(woerter))
+
+for
+
 print(texte)
 print(len(texte))
 print(te)
