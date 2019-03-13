@@ -1,4 +1,10 @@
+
+dateiname = "teste.txt"
 try:
-    f = open("test.txt", "r")
+    f = open(dateiname, "r")
 except FileNotFoundError:
-    print("Datei name.txt nicht gefunden.")
+    print("Datei" + dateiname + "nicht gefunden.")
+
+inhalt = f.read()
+print(inhalt)
+print("ende")

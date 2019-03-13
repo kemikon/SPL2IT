@@ -1,0 +1,7 @@
+nico,
+eduard,
+ostap,
+peter,
+magdalena,
+robert,
+lukas.
